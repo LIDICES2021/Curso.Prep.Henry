@@ -1,0 +1,16 @@
+Declaraciones `if`
+
+El flujo de control (“control flow”) es una forma de que nuestra función verifique si algo es true, 
+y ya sea ejecutando el código suministrado si es así o avanzando si no lo es. 
+Para esto usaremos la palabra clave if.
+function puedeManejar(edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
+
+Aquí estamos tomando un número (edad) y verificando si la declaración es true (22>18), lo es, por lo que devolveremos true, y la función se detendrá. Si no es así, omitirá ese código y la función devolverá false.
