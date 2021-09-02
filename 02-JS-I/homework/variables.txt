@@ -1,0 +1,8 @@
+Variables en javaScript
+Una variable es la forma de almacenar un valor, para después poder utilizarlo. 
+En javaScript existe tres formas de declarar una variable:
+var nombre = 'Lidices'
+let apellidos = 'Reyes Hung'
+const apodo = 'Lidia'
+
+
