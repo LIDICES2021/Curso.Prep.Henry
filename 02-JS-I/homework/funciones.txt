@@ -1,0 +1,29 @@
+Funciones (argumentos, `return`)
+
+Las funciones son una parte muy importante de todo lenguaje de programacion.
+Son tipos particulares de Objetos, llamados callable objects u objetos invocables, 
+por lo que tienen las mismas propiedades que cualquier objeto.
+Teniendo un conjunto de variables neceitamos la funciones para calcularla, cambiarlas, etc.
+ 
+Hay tres formas en que podemos construir una función:
+
+function miFuncion() {}
+
+var otraFuncion = function () {};
+
+var yOtra = () => {};
+
+function miFuncion() {}
+Una función comenzara con la palabra clave function, luego de esto viene el nombre de mi funcion, es decir el nombre de que se trata lo que quiero hacer.
+Despues vienen los párentisis uno abierto y cerrado. 
+Dentro de los corchetes ponemos el codigo de lo que queremos hacer.
+ejemplo:
+function logHola() {
+    console.log('hola!');
+}
+
+logHola();
+
+Funcion con Argumentos
+Despues de ejecutar una funcion básica, podemos pasar argumento a dicha function.
+

@@ -1,0 +1,4 @@
+Cadena de Cararcteres (Strings)
+Los Strings son bloque de textos, estos simepre se definiran entre comillas , ya sea dobles("") o simples ('').
+un ejemplo es:
+var nombreDeCompañia = 'Henry',
