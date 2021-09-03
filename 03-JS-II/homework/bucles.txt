@@ -1,0 +1,9 @@
+Bucles for
+
+El bucle (for) es una sintaxis unica, que trabaja en un ciclo hasta que la declaracion sea falsa. Podremos observar como esta estructurada.
+
+for(let i=0 ; i=5 ; i++){
+    console.log(i);
+}
+Primero iniciamos la variable con el valor 0, luego se ira incrementando hasta que llegue a 5 y cuando pase para el numero 6, va a declarar false y se termina el ciclo.
+imprime el valor de i.

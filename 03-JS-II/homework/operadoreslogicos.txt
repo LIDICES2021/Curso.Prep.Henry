@@ -1,9 +1,39 @@
-Bucles for
+Los Operadores Lógicos los utilizamos para comparar, combinar dos expresiones sin son verdaderas o falsa.
 
-El bucle (for) es una sintaxis unica, que trabaja en un ciclo hasta que la declaracion sea falsa. Podremos observar como esta estructurada.
+Dentro de los Operadores Logitos tenemos:
+&& llamado y (AND)- Esta evaluara dos expresiones y si las dos son verdaderas imprimira true sino false.
+|| llamado ó (OR)- Esta evaluara una o la otra expresion, solo con que una de esta sea verdadera se imprimira true, sino false.
+! llamamo (NOT)- Este operador devolvera el valor booleano opuesto de el que se le pasa. 
 
-for(let i=0 ; i=5 ; i++){
-    console.log(i);
+Ejemplo de &&
+if (100 > 10 && 10 === 10) {
+    console.log('Ambas declaraciones son ciertas, este código se ejecutará');
 }
-Primero iniciamos la variable con el valor 0, luego se ira incrementando hasta que llegue a 5 y cuando pase para el numero 6, va a declarar false y se termina el ciclo.
-imprime el valor de i.
+
+if (10 === 9 && 10 > 9) {
+    console.log('Una de las declaraciones es false, por lo que && devolverá false, y este código no se ejecutará');
+}
+ejemplo ||
+if (100 > 10 || 10 === 10) {
+    console.log('Ambas declaraciones son ciertas, este código se ejecutará');
+}
+
+if (10 === 9 || 10 > 9) {
+    console.log('Una de las declaraciones es true, por lo que || devolverá true y este código se ejecutará');
+}
+
+if (10 === 9 || 1 > 9) {
+    console.log('Ambas declaraciones son falsas, por lo que || devolverá false y este código no se ejecutará');
+}
+ejemplo de !
+if (100 > 10 || 10 === 10) {
+    console.log('Ambas declaraciones son ciertas, este código se ejecutará');
+}
+
+if (10 === 9 || 10 > 9) {
+    console.log('Una de las declaraciones es true, por lo que || devolverá true y este código se ejecutará');
+}
+
+if (10 === 9 || 1 > 9) {
+    console.log('Ambas declaraciones son falsas, por lo que || devolverá false y este código no se ejecutará');
+}
