@@ -1,30 +1,17 @@
 Funciones (argumentos, `return`)
 
-Las funciones son una parte muy importante de todo lenguaje de programacion. Son tipos particulares de Objetos, llamados callable objects u objetos invocables, por lo que tienen las mismas propiedades que cualquier objeto.
-Teniendo un conjunto de variables neceitamos la funciones para calcularla, cambiarlas, etc.
- 
-Hay tres formas en que podemos construir una función:
+Las funciones son bloque de codigos que nos ayuda a un cojunto de variables poderlas logicamente calcularlas, cambiarlas etc.
 
-function miFuncion() {}
+ Hay tres formas en que podemos construir una función, estas son:
 
-var otraFuncion = function () {};
+1- function miFuncion() {}
 
-var yOtra = () => {};
+2- var otraFuncion = function () {};
 
-function miFuncion() {}
-Una función comenzara con la palabra clave function, luego de esto viene el nombre de mi funcion, es decir el nombre de que se trata lo que quiero hacer.
-Despues vienen los párentisis uno abierto y cerrado. 
-Dentro de los corchetes ponemos el codigo de lo que queremos hacer.
-ejemplo:
-function logHola() {
-    console.log('hola!');
-}
+3- var yOtra = () => {};
 
-logHola();
-
-Funcion con Argumentos
-Despues de ejecutar una funcion básica, podemos pasar argumento a dicha function.
-
+En el primer esquema mi funcion empieza con la palabra clave fuction, luego le damos un nombre describiendo de qe se trata la misma, despues va a compañada de () y {} dentro de los corchetes es donde incorporamos nuestro código.
+Tambien podemos pasarle argumento a nuestra funcion. Es decir podemos agregar dentro de los () el nombre de la funcion, iniciando el valor de la funcion para luego llamarla.
 ejemplo:
 
 function logHola(nombre) {
@@ -32,7 +19,6 @@ function logHola(nombre) {
 }
 logHola('Martin');
 
-Si agregamos una variable dentro de los párentisis del nombre de nuestra función, iniciamos el valor de una variable pasandola a la funcion cuando la llamemos.
 En este caso nombre = Martin
 Tambien podemos hacer multiples argumentos, solo que debemos separarlo por coma.
 Ejemplo:
@@ -43,39 +29,12 @@ function logHola(nombre) {
 
 var miNombre = 'Antonio';
 logHola(miNombre);
-
-Declaración “return” y Scope
+Otra forma de utilizarla es con la declaracion de return. En ves de imprimir con console.log (), devolvemos algo, en el ejemplo que le presento a continuacion retornamos el resultado de una suma de dos números.
+ejemplo
 
 function sumarDosNumeros(a, b) {
   var suma = a + b;
   return suma;
 }
-
 sumarDosNumeros(1, 5); // 6
 
-En este ejemplo utilizamos la declaracion return, no usamos console.log() como todo lo que salga en una función.
-Lo que queremos hacer es devolver algo, en este caso es la suma de dos numeros. Pensemos el la declaracion de retorno (return) como la unica forma para que el elemento escape de la función.
-No se puede acceder a nada mas que a lo que se devuelve fuera de la función.
-Hay que tener en cuenta que cuando una función golpea una declaracion de retorno, la funcion detiene inmediantamente lo que esta asiendo y devuelve lo especificado.
-
-function dividirDosNumeros(a, b) {
-  var producto = a / b;
-  return producto;
-}
-
-dividirDosNumeros(6, 3); // 2
-console.log(producto); // undefined
-
-En este caso si intentamos (console.log) algo que declaramos dentro de la función, 
-devolverá undefined porque no tenemos acceso a él fuera de la función. 
-Esto se llama Scope (“alcance”). La única forma de acceder a algo dentro de la función es devolverlo.
-
-También podemos establecer variables para igualar lo que devuelve una función.
-function restarDosNumeros(a, b) {
-  var diferencia = a - b;
-  return diferencia;
-}
-
-var diferenciaDeResta = restarDosNumeros(10, 9);
-console.log(diferenciaDeResta); // 1
-console.log(diferencia); // undefined

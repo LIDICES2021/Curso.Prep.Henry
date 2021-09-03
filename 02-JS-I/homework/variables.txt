@@ -11,5 +11,3 @@ const apodo = 'Lidia';
 var - Es es una palabra clave genérica para “variable”.
 let - esta asignara una variable al igual que var, lo que difiere al crear un “nivel de scope”.
 const- es una variable que no se podra cambiar.
-
-Tambien podemos hablar de console.log(); que es un método que imprime lo que esta dentro del paréntisis.

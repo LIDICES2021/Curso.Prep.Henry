@@ -1,8 +1,5 @@
 Booleanos
-Es un concepto que se alimenta del codigo binario o sea (0 ó 1), esto es una lógica booleana.
-Significa que tiene dos tipos de estado, en javaScript usamos booleano para el signicado de (true ó false), 
-es decir verdadero ó falso.
-
+Es un tipo de datos que presenta dos estado, al igual qye un codigo binario(0 ó 1), en javaScript el tipo de datos booleano significa true o false.
 ejemplo
  var megustaprogramar = true;
  
