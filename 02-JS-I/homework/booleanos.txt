@@ -1,5 +1,5 @@
 Booleanos
-Es un tipo de datos que presenta dos estado, al igual qye un codigo binario(0 ó 1), en javaScript el tipo de datos booleano significa true o false.
+Es un tipo de datos que presenta dos estado, al igual que un codigo binario(0 ó 1), en javaScript el tipo de datos booleano significa true o false.
 ejemplo
  var megustaprogramar = true;
  

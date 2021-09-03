@@ -10,7 +10,7 @@ Las funciones son bloque de codigos que nos ayuda a un cojunto de variables pode
 
 3- var yOtra = () => {};
 
-En el primer esquema mi funcion empieza con la palabra clave fuction, luego le damos un nombre describiendo de qe se trata la misma, despues va a compañada de () y {} dentro de los corchetes es donde incorporamos nuestro código.
+En el primer esquema mi funcion empieza con la palabra clave function, luego le damos un nombre describiendo de que se trata la misma, acompañada de () y {}, dentro de los corchetes es donde incorporamos nuestro código.
 Tambien podemos pasarle argumento a nuestra funcion. Es decir podemos agregar dentro de los () el nombre de la funcion, iniciando el valor de la funcion para luego llamarla.
 ejemplo:
 
@@ -30,6 +30,7 @@ function logHola(nombre) {
 var miNombre = 'Antonio';
 logHola(miNombre);
 Otra forma de utilizarla es con la declaracion de return. En ves de imprimir con console.log (), devolvemos algo, en el ejemplo que le presento a continuacion retornamos el resultado de una suma de dos números.
+
 ejemplo
 
 function sumarDosNumeros(a, b) {
