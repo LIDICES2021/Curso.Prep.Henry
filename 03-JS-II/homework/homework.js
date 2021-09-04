@@ -212,7 +212,7 @@ var result = numero;
 var i = 0;
 do{
   i = i + 1;
-  result = result + 5;
+  result = result + 5; 
 }
 while(i < 8);
 return result;
