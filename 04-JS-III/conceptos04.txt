@@ -1,0 +1,39 @@
+Tipo de datos arrays
+
+Los arrays son un tipo de datos que permite almacenar un conjunto de datos del mismo tipo.
+
+ejemplo:
+
+var table = [10];
+
+Método .length
+ El metodo .length cuenta una cadena de caracteres, sabiendo la cantidad de elementos que tenemos, ademas en una matriz .length devuelve el numero de elemento que contine la misma.
+ ejemplo:
+ 
+function tienenMismaLongitud(str1, str2) {
+  // Devuelve "true" si las dos strings tienen la misma longitud
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  if (str1.length === str2.length){
+    return true; 
+  }
+  else {
+    return false;
+  }
+}
+
+Metodos .push y .pop
+Estos metodos se utilizan para adicionar o eliminar elementos al final de una matriz.
+.push
+agrega un elemento al final de la matriz, aumentando su longitud 1.
+.pop 
+elimina un elemento al final de la matriz, restando su longitud 1.
+
+Metodos .unshift y .shith
+ Estos metodos se utilizan para adicionar o restar elementos al principio de una matriz.
+ .unshift(item) colocara un nuevo elemento en la primera posicion de la matriz.
+ .shith eliminara el primer elemento de la matriz.
+
+Bucle for en arrays
+for se utiliza para iteratuar con todos los elementos de la matriz, utilizando la tecnica “index access technique”, podemos acceder por todos los elementos de la matriz.
+Para hacerlo utilizamos .length como punto de parada del ciclo.
