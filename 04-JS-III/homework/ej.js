@@ -1,18 +1,19 @@
 
-const lista = [5, 10, 11, 3, 4];
 
-function numeroMasGrande(numeros) {
-    // "numeros" debe ser una matriz de enteros (int/integers)
-    // Devuelve el número más grande
-    // Tu código:
-    var masgrande = numeros[0];
-    for(var i = 1; i < numeros.length; i++){
-        if(numeros[i] > masgrande){
-            masgrande = numeros[i];
-        }
+
+function crearGato(nombre, edad) {
+  // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
+  // Agrega una propiedad al objeto con el nombre "edad" y usa el valor definido en el argumento "edad"
+  // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
+  // Devuelve el objeto
+  // Tu código:
+  var obj = {
+      nombre : nombre,
+      edad : edad,
+      meow : function (){
+      return "Meow";
     }
-    return masgrande;
-
-    
+  };
+  return obj;
 }
-console.log(numeroMasGrande(lista));
+console.log(crearGato.nombre());
