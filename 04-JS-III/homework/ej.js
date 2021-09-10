@@ -1,6 +1,6 @@
 
 
-
+const lista = ("lidices")
 function crearGato(nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
   // Agrega una propiedad al objeto con el nombre "edad" y usa el valor definido en el argumento "edad"
@@ -11,9 +11,9 @@ function crearGato(nombre, edad) {
       nombre : nombre,
       edad : edad,
       meow : function (){
-      return "Meow";
+        return "Meow!";
     }
   };
   return obj;
-}
-console.log(crearGato.nombre());
+} 
+console.log(crearGato(lista))
