@@ -1,0 +1,15 @@
+Los Objetos
+LOs objetos son una coleccion de propiedades en la cual se guarda toda la informacion de una cosa.
+Estas propiedades (clave) tienen un valor. 
+ejemplo de un objeto:
+const usuario = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+
+
+usuario es el objeto.
+username, password, lovesJavascript, favoriteNumber son las propiedades.
+y separado por : el valor ('juan.perez', 'loremipsumpwd123', true, 42)
