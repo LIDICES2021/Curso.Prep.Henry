@@ -1,0 +1,15 @@
+
+
+Prototype
+
+Las clases tienen una forma única de establecer un método una vez y dar acceso a cada objeto de esa clase a esos métodos.
+ Esto se llama el prototype. Cada clase tiene una propiedad prototype, que luego podemos establecer en métodos ejemplo:
+
+ function Usuario(nombre, github) {
+    this.nombre = nombre;
+    this.github = github;
+}
+
+Usuario.prototype.introduccion = function(){
+    return 'Mi nombre es ' + this.nombre + ', mi usuario de Github es ' + this.github + '.';
+}

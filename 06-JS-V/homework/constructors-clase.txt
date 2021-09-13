@@ -1,0 +1,27 @@
+
+clase o constructor
+
+La funcionalidad de las clases o constructor son parecida a los objetos normales, 
+Las clases son útiles para crear muchos objetos que comparten algunas de las mismas propiedades y métodos.
+
+Javascript no proporciona un “verdadero” sistema de clases, hay algo muy familiar. 
+
+La clase inicializa dando un nombre en mayúscula.
+podemos ver un ejemplo a continuacion donde Gato es el nombre de la clase:
+
+function Gato(nombre) {
+    // El nuevo operador crea un objeto, "this"
+    this.nombre = nombre;
+    this.maullar = function() {
+        return 'Mi nombre es ' + this.nombre + ' ... Meow!';
+    }
+    // Devuelve el objeto "this"
+}
+
+const sam = new Gato('Sam');
+const kitty = new Gato('Kitty');
+console.log(sam.maullar()); // 'Mi nombre es Sam ... Meow!'
+console.log(kitty.maullar()); // 'Mi nombre es Kitty ... Meow!'
+
+
+
