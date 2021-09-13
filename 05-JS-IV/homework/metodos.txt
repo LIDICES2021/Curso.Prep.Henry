@@ -1,0 +1,12 @@
+Métodos
+
+Las funciones guardadas en los objetos se llaman métodos, podemos llamar a estos métodos usando notacion de punto y paréntisis finales.
+
+ejemplo:
+const nuevoObjeto = {
+    decirHola: function() {
+        console.log('Hola a todo el mundo!');
+    }
+}
+
+nuevoObjeto.decirHola();

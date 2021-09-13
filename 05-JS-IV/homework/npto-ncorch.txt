@@ -1,0 +1,24 @@
+
+Las Notaciones de puntos y Notaciones de corchetes
+
+
+Al tener los pares clave-valor podemos aceder a ese valor llamamndo al nombre del objeto y la clave, hay dos forma de hacerlo
+con punto o corchetes.
+
+con la notacion de punto podemos llamar al nombre del objeto.nombredelaclave
+ejemplo:
+
+user.lovesJavascript; // true
+user.username;        // juan.perez
+
+Con la notación de corchetes es como llamar a un elemento en un arreglo, 
+aunque con corchetes debemos usar una cadena o número, o una variable que apunte a una cadena o número. 
+Se puede llamar a cada clave envolviéndola con comillas, ejemplo:
+
+const passString = 'password';
+user['lovesJavascript']; // true
+user['username'];        // juan.perez
+user[passString];        // loremipsumpwd123
+
+
+verás que los corchetes casi siempre se usan con variables.
