@@ -1,0 +1,8 @@
+
+En javascripts es muy importante pasar la capacidad de una función como argumento a otra funcion estas funciones se llama callback.
+
+.forEach Es un bucle de for integrado en cada matriz, toma un callbackcomo un único argumento e intera sobre cada elemento de la matriz y llama al callback en el.
+
+.reduce  ejecutará un bucle en nuestra matriz con la intención de reducir cada elemento en un elemento que se devuelve.
+
+.map .map se usa cuando queremos cambiar cada elemento de una matriz de la misma manera. 
