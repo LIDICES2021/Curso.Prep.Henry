@@ -5,4 +5,4 @@ En javascripts es muy importante pasar la capacidad de una función como argumen
 
 .reduce  ejecutará un bucle en nuestra matriz con la intención de reducir cada elemento en un elemento que se devuelve.
 
-.map .map se usa cuando queremos cambiar cada elemento de una matriz de la misma manera. 
+.map .map se usa cuando queremos cambiar cada elemento de una matriz de la misma manera.    

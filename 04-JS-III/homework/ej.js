@@ -1,20 +1,17 @@
 
-var frases = ['hola esto string', 'frase con palabra'];
+var sumarArray([1, 2, 3, 4, 5], function(Szuma);
 
 
-function palabraMasLarga(array) {
- var masLarga = "";
- for(var j = 0; j < array.length; j++) {
-    var palabras = array[j].split(' ');
-    var longitud = masLarga.length;  
-      for(var i = 0; i < palabras.length; i++){      
-        if(palabras[i].length > longitud){
-          longitud = palabras[i].length;
-          masLarga = palabras[i];
-        }
-      }
+function filter(array) {
+  //Filtrar todos los elementos del array que comiencen con la letra "a".
+  //Devolver un nuevo array con los elementos que cumplen la condición
+  //Tu código:
+  var nuevoArray = [];
+  for(var i = 0; i < array.length; i++){
+    if(array[i][0] === 'a'){
+      nuevoArray.push(array[i]);
+    }
   }
-  return masLarga
+  return nuevoArray;
 }
-
-console.log(palabraMasLarga(frases));
+console.log(sumarArray(lista));
